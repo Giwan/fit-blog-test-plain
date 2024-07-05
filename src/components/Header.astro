@@ -6,7 +6,7 @@ import getLink from '../utils';
 
 <header>
 	<nav>
-		<h2><a href="/">{SITE_TITLE}</a></h2>
+		<h2><a href={getLink()}>{SITE_TITLE}</a></h2>
 		<div class="internal-links">
 			<HeaderLink href={getLink()}>Home</HeaderLink>
 			<HeaderLink href={getLink("blog")}>Blog</HeaderLink>
